@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/html"
+        android:title="Html">
+        <menu>
+            <item
+                android:id="@+id/radio"
+                android:title="Radio" />
+
+            <item
+                android:id="@+id/checkbox"
+                android:title="CheckBox" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/css"
+        android:title="CSS">
+
+        <menu>
+            <item
+                android:id="@+id/internalcss"
+                android:title="InternalCSS"/>
+            <item
+                android:id="@+id/externalcss"
+                android:title="ExternalCss"/>
+
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/bootstrap"
+        android:title="BootStarp"/>
+    <item
+        android:id="@+id/java"
+        android:title="Java">
+        <menu>
+            <item
+                android:id="@+id/inheritance"
+                android:title="Inheritance"/>
+            <item
+                android:id="@+id/exception"
+                android:title="Exception"/>
+            <item
+                android:id="@+id/polymorphism"
+                android:title="Polymorphism"/>
+
+        </menu>
+    </item>
+</menu>
